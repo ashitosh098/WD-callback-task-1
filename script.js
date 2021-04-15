@@ -5,12 +5,6 @@ countdown.style.textAlign='center';
 document.body.append(countdown);
 countdown.innerText=10;
 
-
-
-
-
-
-
 setTimeout(() => {
     countdown.innerText=9;
     setTimeout(() => {
